@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+#define PI 3.14
+using namespace std;
+
+int main()
+{
+int r1=9;
+int r2=6;
+
+int s1= PI*pow(r1,2);
+int s2= PI*pow(r2,2);
+int s3= s1-s2;
+cout<<s1<<endl;
+cout<<s2<<endl;
+cout<<s3<<endl;
+
+return 0;
+}

@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int plus_(int var1){
+return var1;
+}
+ 
+int plus_(int var1,int var2){
+return var1 + var2;
+ 
+}
+int minus_(int var1)
+{
+	return -var1;
+}
+ int minus_(int var1,int var2)
+{
+	return var1-var2;
+ 
+}
+int main() {
+	int a = 4;
+	int b = 5;
+	int c = -a;
+	int d = a-b;
+	int c1 = +a;
+	int d1 = a+b;
+	int c2 = plus_(a);
+	int d2 = plus_(a,b);
+	int c3 = minus_(a);
+	int d3 = minus_(a,b);
+	cout << c2 <<" "<<d2;
+	cout << c3 <<" "<<d3;
+	return 0;
+}
